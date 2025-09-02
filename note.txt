@@ -1,0 +1,98 @@
+No of preprocessors 
+Find out different types of escape sequence and format specifer.
+Find out different types of
+Study/compare data  types in c , c++, java 
+
+
+_____________________________________________________________________
+
+most significant bit
+
+_____________________________________________________________________
+signed unsigned :
+✅ Summary:
+
+signed → can hold negative & positive.
+
+unsigned → only positive, but larger positive range.
+
+Useful when handling things like array sizes, memory addresses, loop counters → usually use unsigned.
+
+_____________________________________________________________________
+functions of string.h
+
+🔹 <string.h> in C
+
+👉 <string.h> is a header file in C that provides functions to work with strings (character arrays).
+👉 These functions help in copying, comparing, concatenating, finding length, etc.
+_____________________________________________________________________
+operators:
+✅ Summary:
+
+Arithmetic → +, -, *, /, %
+
+Relational → ==, !=, >, <, >=, <=
+
+Logical → &&, ||, !
+
+Assignment → =, +=, -=, etc.
+
+Increment/Decrement → ++, --
+
+Bitwise → &, |, ^, ~, <<, >>
+
+Conditional → ?:
+
+Special → sizeof, &, *, ->
+
+_____________________________________________________________________
+passing value in functions, return type:-
+
+✅ Summary:
+
+Passing values → 2 ways:
+
+Call by Value (copy, original not changed)
+
+Call by Reference (address, original changes)
+
+Return type → tells what function gives back (int, float, char, void, etc.)
+
+________________________________________________________________________________
+
+Types of functions
+
+✅ Summary:
+
+Library functions → ready-made (like printf, sqrt).
+
+User-defined functions → written by us.
+
+Function forms → 4 types (based on arguments & return).
+                1. No return, No arguments
+                2. No return, With arguments
+                3. With return, No arguments
+                4. With return, With arguments
+
+
+__________________________________________________________________________
+null, wild, 
+
+______________________________________________________________________________________________
+
+Dangling Pointer:- 
+
+int *ptr = (int*)malloc(sizeof(int)); // allocate memory
+*ptr = 10;
+free(ptr);   // memory freed
+// Now ptr is dangling, because it still points to freed memory
+
+free(ptr);
+ptr = NULL;   // now safe
+
+
+⚠️ In short:
+A dangling pointer = pointer pointing to invalid / non-existing memory.
+It is dangerous because using it can cause runtime errors.
+______________________________________________________________________________________________
+
