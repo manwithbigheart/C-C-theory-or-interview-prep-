@@ -43,7 +43,7 @@ public:
     cout << "Parents ka naam bhi inherit hua: "
          << pt_FatherName << " & " << pt_MotherName << endl;
   }
-};b
+};
 
 int main()
 {
