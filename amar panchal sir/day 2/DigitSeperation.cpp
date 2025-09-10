@@ -12,7 +12,7 @@ int main()
     int digit = number % 10;
 
     number = number / 10;
-    cout << "\nnumber:" << number << "\tdigit:" << digit;
+    cout << "\nnumber:" << number << "\t digit:" << digit;
     sum += digit;
     
                                         // 5 blank space

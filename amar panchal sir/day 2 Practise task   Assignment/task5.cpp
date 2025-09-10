@@ -10,7 +10,7 @@ int main()
   cout << "Enter the number : ";
   cin >> number;
   while (number > 0)
-  {
+  {     // num = 12
     digit = number % 10;
     number = number / 10;
     if (digit < 0)
